@@ -1,0 +1,71 @@
+h1{
+    margin-bottom: 1.5em;
+}
+.form_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center; 
+    margin-top: 2em;
+    max-width: 500px;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 20px; 
+    
+    min-width: 30em;
+} 
+.form_body{
+    display: grid;
+    grid-template-rows: 7;
+    grid-template-columns: 1;
+}
+.form_label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+input, textarea{
+    margin-top: .5em;
+    padding: 5px;
+    font-size: 14px;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    margin: 2em 0 4em;
+    padding: 7px 15px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.save_button{
+    background-color: rgb(43, 171, 43);
+}
+.calcel_button{
+    background-color: rgb(172, 61, 61);
+}
+textarea{
+    resize: none;
+}
+.input_error_message{
+    font-size: 13px;
+    padding: 7px;
+    background-color: rgb(167, 51, 51);
+    color: #fff;
+    margin-top: 0;
+    border-radius: 0 0 10px 10px;
+    
+}
+.red_borders{
+    border-color: rgb(167, 51, 51)
+}
+
+.char_counter{
+    font-size: 12px;
+    text-align: right;
+    border-radius: 3px;
+}
